@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+.card {
+  @apply bg-white/95 border border-slate-200 shadow-xl rounded-[28px] p-6;
+}
+
+.card-hoverable {
+  @apply hover:shadow-2xl hover:border-blue-200 transition-all duration-200;
+}
+
+.btn-primary {
+  @apply bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-full transition-all duration-200 shadow-lg shadow-blue-500/20 px-5 py-3;
+}
+
+.btn-secondary {
+  @apply bg-slate-950 text-white border border-slate-800 font-semibold rounded-full transition-all duration-200 hover:bg-slate-900 px-5 py-3;
+}
+
+.nav-gradient {
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.12), rgba(14, 165, 233, 0.06));
+}
+
+.page-glow {
+  box-shadow: 0 35px 90px rgba(15, 23, 42, 0.08);
+}
